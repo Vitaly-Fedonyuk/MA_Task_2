@@ -1,11 +1,12 @@
 animal_name = gets.chomp.capitalize
-if animal_name == "Dog"
+case animal_name
+when "Dog"
     puts "#{animal_name} говорить - Гав "
-elsif animal_name == "Cat"
+when "Cat"
     puts "#{animal_name} говорить - Мяу"
-elsif animal_name == "Wolf"
+when "Wolf"
     puts "#{animal_name} говорить Аууу"
-elsif animal_name == "Bird"
+when "Bird"
     puts "#{animal_name} говорить Чирк"
 else
     puts "Введіть іншу тварину "
